@@ -21,7 +21,7 @@ if uploaded_file:
     loader = PDFPlumberLoader("temp.pdf")
     docs = loader.load()
 
-    text_splitter = SemanticChunker(HuggingFaceEmbeddings())
+    text_splitter = SemanticChunker(HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2"))
     documents = text_splitter.split_documents(docs)
 
     embedder = HuggingFaceEmbeddings()
