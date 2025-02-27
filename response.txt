@@ -1,0 +1,274 @@
+```json
+[
+  {
+    "voter_id": "IBU1499698",
+    "name": "அபிராமிபண்டாரு",
+    "father_name": "உதயகிருஷ்ணாபண்டாரு",
+    "husband_name": null,
+    "house_no": "1",
+    "age": "47",
+    "gender": "பெண்"
+  },
+  {
+    "voter_id": "IBU1499706",
+    "name": "ரமணி",
+    "father_name": null,
+    "husband_name": "கோபாலகிருஷ்ணன்",
+    "house_no": "1",
+    "age": "47",
+    "gender": "பெண்"
+  },
+  {
+    "voter_id": "IBU1499714",
+    "name": "லோக்நாத்",
+    "father_name": null,
+    "mother_name": "சுமதி",
+    "house_no": "1",
+    "age": "45",
+    "gender": "ஆண்"
+  },
+  {
+    "voter_id": "IBU1499722",
+    "name": "மணிமேகலா",
+    "father_name": null,
+    "husband_name": "வெங்கடாசலம்",
+    "house_no": "1",
+    "age": "44",
+    "gender": "பெண்"
+  },
+  {
+    "voter_id": "IBU1392257",
+    "name": "சிதம்பரம்",
+    "father_name": "லெட்சுமணன்",
+    "husband_name": null,
+    "house_no": "1",
+    "age": "43",
+    "gender": "ஆண்"
+  },
+  {
+    "voter_id": "IBU1499730",
+    "name": "சண்முகவடிவு",
+    "father_name": null,
+    "husband_name": "லோக்நாத்",
+    "house_no": "1",
+    "age": "42",
+    "gender": "பெண்"
+  },
+  {
+    "voter_id": "IBU1499771",
+    "name": "விக்னேஷ்ராஜ்குமார்",
+    "father_name": "ராஜமாணிக்கம்",
+    "husband_name": null,
+    "house_no": "1",
+    "age": "40",
+    "gender": "ஆண்"
+  },
+  {
+    "voter_id": "IBU1499797",
+    "name": "லலிதாம்பாள்",
+    "father_name": null,
+    "husband_name": "ரகுராமன்",
+    "house_no": "1",
+    "age": "39",
+    "gender": "பெண்"
+  },
+  {
+    "voter_id": "IBU0263335",
+    "name": "பிரசன்னா",
+    "father_name": "குமார்",
+    "husband_name": null,
+    "house_no": "1",
+    "age": "38",
+    "gender": "ஆண்"
+  },
+  {
+    "voter_id": "IBU1392174",
+    "name": "உமா",
+    "father_name": null,
+    "husband_name": "சிதம்பரம்",
+    "house_no": "1",
+    "age": "38",
+    "gender": "பெண்"
+  },
+  {
+    "voter_id": "IBU1499813",
+    "name": "சரண்யாவிக்னேஷ்",
+    "father_name": null,
+    "husband_name": "விக்னேஷ்ராஜ்குமார்",
+    "house_no": "1",
+    "age": "35",
+    "gender": "பெண்"
+  },
+  {
+    "voter_id": "IBU1610344",
+    "name": "பிரதீப்குமார்",
+    "father_name": "ராஜ்குமார்",
+    "husband_name": null,
+    "house_no": "1",
+    "age": "35",
+    "gender": "ஆண்"
+  },
+  {
+    "voter_id": "IBU1610351",
+    "name": "மம்தாதேவி",
+    "father_name": null,
+    "husband_name": "பிரதீப்",
+    "house_no": "1",
+    "age": "34",
+    "gender": "பெண்"
+  },
+  {
+    "voter_id": "IBU0856724",
+    "name": "தேவேஷ்",
+    "father_name": "பெருமாள்சாமி",
+    "husband_name": null,
+    "house_no": "1",
+    "age": "30",
+    "gender": "ஆண்"
+  },
+  {
+    "voter_id": "IBU1499839",
+    "name": "சுவாதிராம்ஜெய்ஈஸ்வரன்",
+    "father_name": "ஜீவன்",
+    "husband_name": null,
+    "house_no": "1",
+    "age": "29",
+    "gender": "ஆண்"
+  },
+  {
+    "voter_id": "IBU1499847",
+    "name": "சௌமியா",
+    "father_name": "சிவகுருநாதன்",
+    "husband_name": null,
+    "house_no": "1",
+    "age": "26",
+    "gender": "பெண்"
+  },
+  {
+    "voter_id": "IBU1499854",
+    "name": "திவ்யா",
+    "father_name": "ராமன்",
+    "husband_name": null,
+    "house_no": "1",
+    "age": "25",
+    "gender": "பெண்"
+  },
+  {
+    "voter_id": "IBU1499862",
+    "name": "ஐஸ்வர்யாசுப்பராமன்",
+    "father_name": "சுப்பராமன்",
+    "husband_name": null,
+    "house_no": "1",
+    "age": "25",
+    "gender": "பெண்"
+  },
+  {
+    "voter_id": "IBU3239761",
+    "name": "ரேஸ்மா",
+    "father_name": "சந்திரசேகர்",
+    "husband_name": null,
+    "house_no": "1",
+    "age": "20",
+    "gender": "பெண்"
+  },
+   {
+    "voter_id": "MPR7548563",
+    "name": "முரளி",
+    "father_name": "கோபாலகிருஷ்ணன்",
+    "husband_name": null,
+    "house_no": "1A",
+    "age": "56",
+    "gender": "ஆண்"
+  },
+  {
+    "voter_id": "MPR7548571",
+    "name": "ஜெயஸ்ரீ",
+    "father_name": null,
+    "husband_name": "முரளி",
+    "house_no": "1A",
+    "age": "50",
+    "gender": "பெண்"
+  },
+  {
+    "voter_id": "IBU0856674",
+    "name": "ராதாகிருஷ்ணன்",
+    "father_name": "மாரியப்பன்",
+    "husband_name": null,
+    "house_no": "1A",
+    "age": "49",
+    "gender": "ஆண்"
+  },
+  {
+    "voter_id": "IBU0856682",
+    "name": "செந்தில் காயத்திரி",
+    "father_name": "ராதா கிருஷ்ணன்",
+    "husband_name": null,
+    "house_no": "1A",
+    "age": "43",
+    "gender": "பெண்"
+  },
+  {
+    "voter_id": "IBU1387604",
+    "name": "பிரவீன்குமார்",
+    "father_name": "ஆறுமுகம்",
+    "husband_name": null,
+    "house_no": "1A",
+    "age": "42",
+    "gender": "ஆண்"
+  },
+  {
+    "voter_id": "IBU3194149",
+    "name": "ஹரிஷ்",
+    "father_name": "ரவிசந்தரன்",
+    "husband_name": null,
+    "house_no": "1ஏ",
+    "age": "30",
+    "gender": "ஆண்"
+  },
+  {
+    "voter_id": "IBU3194263",
+    "name": "லாவண்யா",
+    "father_name": "இளங்கோ",
+    "husband_name": null,
+    "house_no": "1ஏ",
+    "age": "20",
+    "gender": "பெண்"
+  },
+  {
+    "voter_id": "IBU0520114",
+    "name": "அலிஷ்",
+    "father_name": "ஜோசப்",
+    "husband_name": null,
+    "house_no": "1B",
+    "age": "63",
+    "gender": "ஆண்"
+  },
+  {
+    "voter_id": "IBU0520643",
+    "name": "கிஷோர்",
+    "father_name": "ஜோசப்",
+    "husband_name": null,
+    "house_no": "1B",
+    "age": "43",
+    "gender": "ஆண்"
+  },
+  {
+    "voter_id": "IBU0519538",
+    "name": "டோனி",
+    "father_name": "ஜோசப்",
+    "husband_name": null,
+    "house_no": "1B",
+    "age": "41",
+    "gender": "ஆண்"
+  },
+  {
+    "voter_id": "IBU1987536",
+    "name": "சுபமதி",
+    "father_name": "பழனிச்சாமி",
+    "husband_name": null,
+    "house_no": "1b",
+    "age": "37",
+    "gender": "பெண்"
+  }
+]
+```
