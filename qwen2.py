@@ -1,3 +1,4 @@
+import json
 import os
 
 import ollama
@@ -12,7 +13,7 @@ image_files = [f for f in os.listdir(image_folder) if f.endswith(('.jpg', '.jpeg
 def extract_text_from_image(image_path):
     try:
         img = Image.open(image_path)
-        text = pytesseract.image_to_string(img)  # Tamil language support
+        text = pytesseract.image_to_string(img, lang='tam')  # Tamil language support
         return text.strip()
     except Exception as e:
         print(f"Error processing image {image_path}: {e}")
@@ -25,6 +26,10 @@ for img_file in image_files:
     text = extract_text_from_image(image_path)
     if text:
         extracted_data.append({"image": img_file, "text": text})
+
+
+# List to store all responses
+all_data_list = []
 
 # Format the data for the DeepSeek model
 if extracted_data:
@@ -47,12 +52,32 @@ if extracted_data:
     """
 
     # Call DeepSeek via Ollama
-    response = ollama.chat(model='deepseek-r1:1.5b', messages=[
+    response = ollama.chat(model='mistral:latest', messages=[
         {'role': 'system', 'content': 'You are a helpful assistant. You are going to help me to find few persons voter details for attached image, without translating just extract the text accurately'},
         {'role': 'user', 'content': prompt}
     ])
 
     # Output the response
-    print(response['message']['content'])
+    print(response)
+
+    # Clean the response text
+    cleaned_response_text = response['message']['content'].replace("```json", "").replace("```", "").strip()
+
+    if cleaned_response_text:
+        try:
+            response_data = json.loads(cleaned_response_text)
+            if isinstance(response_data, list):
+                all_data_list.extend(response_data)
+
+            # Create a dictionary with the key 'data' and the accumulated list
+            all_data = {"data": all_data_list}
+
+            # Write all responses to a single JSON file
+            with open('mistral.json', 'w') as json_file:
+                json.dump(all_data, json_file, indent=4, ensure_ascii=False)
+
+            print('All responses written to all_responses.json')
+        except json.JSONDecodeError as e:
+            print(f"JSON decode error: {e}")
 else:
     print("No valid text extracted from images.")
